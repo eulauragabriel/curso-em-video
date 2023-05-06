@@ -1,0 +1,18 @@
+#eu jamais gastaria meu tempo fazendo algo tão complexo pra um programa que teoricamente seria mais simples mas como o exercício pediu...
+
+algo = input('Digite alguma coisa: ')
+print(f'Qual o tipo de {algo}? ', type(algo))
+print(f'{algo} é numérico? ')
+print(algo.isnumeric())
+print(f'{algo} é alfabético? ')
+print(algo.isalpha())
+print(f'{algo} é alfanumérico? ')
+print(algo.isalnum())
+print(f'{algo} é maiúsculo? ')
+print(algo.isupper())
+print(f'{algo} é minúsculo? ')
+print(algo.islower())
+print(f'{algo} só tem espaços? ')
+print(algo.isspace())
+print(f'{algo} está capitalizado? ') 
+print(algo.istitle())

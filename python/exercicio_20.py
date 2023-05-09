@@ -8,6 +8,10 @@ aluno4 = input("digite o nome do quarto aluno: ")
 nomes = [aluno1, aluno2, aluno3, aluno4]
 aluno = random.shuffle(nomes)
 
+#print('a ordem de apresentação será: ')
+#print(nomes)
+#essa é a resolução do gustavo guanabara
+
 print(f'a ordem dos alunos será:')
 for aluno in nomes:
     print(aluno)
